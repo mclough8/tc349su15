@@ -12,6 +12,7 @@ body {
   background: -moz-linear-gradient (left, #111111, #222222);
   background: -o-linear-gradient (left, #111111, #222222);
 }
+
 div {
   height: 200px;
   background-size: cover;
@@ -20,6 +21,7 @@ div {
   border-radius: 0px;
   /*background: -webkit-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%);*/
 }
+
 h1 {
   font-family: 'Raleway';
   text-align: right;
@@ -305,7 +307,7 @@ small {
 
 .amazing {
   position: relative;
-  left: 100px;
+  left: 90px;
 }
 
 .test {
@@ -334,7 +336,8 @@ a {
 
 .homebutton:hover {
   text-decoration: none;
-
+  color: #547f00;
+  text-shadow: 15px;
 }
 
 .bullets {
@@ -365,19 +368,8 @@ ul {
 
 }
 
-.contact {
-  position: relative;
-  margin-top: 100px;
-}
 
-.input {
-  margin: 25px;
 
-}
-
-form {
-  font-family: 'Raleway';
-}
 
 @media (max-width: 500px) {
   h1 {
@@ -403,6 +395,8 @@ form {
 
 </style>
 
+<title>Home</title>
+
 </head>
 
 <body>
@@ -416,8 +410,8 @@ form {
     <div class="nav">
 
       <ul class="navigation">
-        <li class="navli"><a href="index.html">Home</a></li>
         <li class="navli"><a href="">Project Gallery</a></li>
+        <li class="navli"><a href="TVHeadMediaContact.html">Contact Us</a></li>
       </ul>
     </div>
   </div>
@@ -426,20 +420,29 @@ form {
 
 </div>
 
-<div class="contact">
-<h2>Send e-mail to tvheadmedia@gmail.com:</h2>
-
-<form action="MAILTO:tvheadmedia@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input class="input" type="text" name="name" placeholder="Name"><br>
-E-mail:<br>
-<input class="input" type="text" name="mail" placeholder="Email"><br>
-Comment:<br>
-<input class="input" type="text" name="comment" placeholder="Comment" size="50"><br><br>
-<input class="input" type="submit" value="Send">
-<input class="input" type="reset" value="Reset">
-</form>
-
+<div class="whatwedo">
+<p class="whatwedotext">What We Do</p>
 </div>
+
+<div class="beep1"></div>
+<div class="beep2"></div>
+<div class="beep3"></div>
+
+<div class="bullets">
+  <ul class"bulletul">
+    <li type="square" class="bulletli">Websites</li>
+    <li type="square" class="bulletli">Apps</li>
+    <li type="square" class="bulletli">Video Games</li>
+  </ul>
+  <p class="web">We personally listen to you about how you want your website to look like and
+  will help create your visualization.</p>
+  <p class="app">We only employ the best when it comes to application developers and work
+    with them to meet your needs.</p>
+  <p class="vidgame">We create custom video games for all platforms.</p>
+</div>
+
+<div class="beeper1"></div>
+<div class="beeper2"></div>
+<div class="beeper3"></div>
 
 </body>
